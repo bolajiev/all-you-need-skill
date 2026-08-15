@@ -1,3 +1,14 @@
+---
+name: all-you-need-skill
+description: >-
+  The agent's operating doctrine for behaving like a good designer and engineer.
+  Use for any engineering or design task: planning, requirements, architecture,
+  API/data/query design, UI/UX design, accessibility, build, CI/CD, testing,
+  review, deployment, monitoring, security, secrets, incidents, agent loop,
+  verification, scope discipline, or stopgap/debt decisions. Always loaded when a
+  task starts: routes to core/ rules and references/ per-concern guidance.
+---
+
 # all-you-need-skill
 
 The agent's operating doctrine. Loaded whenever the agent starts a task. This
