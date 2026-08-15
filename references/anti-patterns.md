@@ -62,6 +62,13 @@ catalog:
 | Approval bypassed "this once" | faster iteration | `core/permission-boundaries.md` |
 | Scope added without the user asking | more features, feels generous | `core/scope-discipline.md` |
 | Ambiguity guessed instead of asked | no interruption | `core/ambiguity-resolution.md` |
+| Screenshot-green but the flow was never walked | UI "verification" passes | `design/usability-testing.md`, `core/verification.md` |
+| Design shipped without being critiqued | looks fine at a glance | `design/design-critique.md`, `quality/self-critique-loop.md` |
+| Ship it, flag it later (no progressive rollout) | one big release feels decisive | `operations/feature-flags-and-progressive-delivery.md`, `operations/deployment-strategy.md` |
+| Strings hardcoded in English | it works for the author's locale | `architecture/internationalization-and-localization.md` |
+| Files thrown into a flat folder "for now" | everything is in the repo | `architecture/code-organization-and-naming.md` |
+| "Merge and pray" — no CI gate | the merge looks successful | `build/ci-cd-pipeline.md`, `core/definition-of-done.md` |
+| Long silent task, status never reported | no interruptions, feels efficient | `agent-state/progress-and-status-communication.md` |
 
 The first five rows are the canonical recurring smells; the rest are their
 file-level instances. On matching a smell: name it, apply the owner file's

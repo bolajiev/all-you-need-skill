@@ -45,12 +45,12 @@ that matches the current concern. Each reference file states in its
 | Directory | Concern |
 |-----------|---------|
 | `references/planning/` | planning, research, requirements elicitation, task decomposition, spec handoff |
-| `references/architecture/` | data, queries, APIs, auth, boundaries, infra, deps, migrations, deprecation, idempotency, performance, concurrency, caching, resilience, refactoring |
-| `references/design/` | UX research, interaction, visual, accessibility, design systems, design-to-code handoff |
-| `references/build/` | build workflow, repo discovery, tool allowlist, env setup, git, parallelism |
+| `references/architecture/` | data, queries, APIs, auth, boundaries, infra, deps, migrations, deprecation, idempotency, performance, concurrency, caching, resilience, refactoring, i18n, code organization |
+| `references/design/` | UX research, interaction, visual, UX writing, accessibility, design systems, design critique, usability testing, design-to-code handoff |
+| `references/build/` | build workflow, repo discovery, tool allowlist, env setup, git, CI/CD pipeline, parallelism |
 | `references/quality/` | testing, performance testing, review, self-critique, observability, documentation, security baseline |
-| `references/operations/` | deployment, monitoring (non-optional), incidents, sandboxing, secrets, data retention |
-| `references/agent-state/` | context, session continuity, checkpoints, escalation, audit trail (non-optional) |
+| `references/operations/` | deployment, feature flags, monitoring (non-optional), incidents, sandboxing, secrets, data retention |
+| `references/agent-state/` | context, session continuity, checkpoints, escalation, audit trail (non-optional), progress reporting |
 | `references/product/` | tradeoffs, cost, backward compat, env parity, ownership |
 | `references/anti-patterns.md` | cross-cutting stopgap smells — consult when anything feels "good enough" |
 
