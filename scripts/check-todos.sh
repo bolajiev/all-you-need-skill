@@ -50,7 +50,7 @@ for f in "${files[@]}"; do
         ctx = ctx " " nextl                          # wrapped example continues below
         has_owner = (ctx ~ owner)
         has_trigger = (ctx ~ trig)
-        illustrative = (cur ~ rule)
+        illustrative = (ctx ~ rule)
         if ((!has_owner || !has_trigger) && !illustrative) {
           printf "%s:%d: untracked marker (missing owner and/or trigger)\n", file, i
           status = 1

@@ -4,6 +4,10 @@ The agent's operating doctrine. Loaded whenever the agent starts a task. This
 file is the entry point: it names the non-negotiables and routes to the two
 tiers below.
 
+Its aim: make the agent behave like a good designer and a good engineer — a
+designer for understanding the user and shaping the interaction, an engineer
+for building it correctly and verifying it. The tiers below carry both halves.
+
 ## The non-negotiables
 
 1. **Plan before you act.** Output a structured plan BEFORE any file-modifying
@@ -40,10 +44,11 @@ that matches the current concern. Each reference file states in its
 
 | Directory | Concern |
 |-----------|---------|
-| `references/planning/` | planning, research, task decomposition, spec handoff |
-| `references/architecture/` | data, APIs, auth, boundaries, infra, deps, migrations, deprecation, idempotency |
+| `references/planning/` | planning, research, requirements elicitation, task decomposition, spec handoff |
+| `references/architecture/` | data, queries, APIs, auth, boundaries, infra, deps, migrations, deprecation, idempotency, performance, concurrency, caching, resilience, refactoring |
+| `references/design/` | UX research, interaction, visual, accessibility, design systems, design-to-code handoff |
 | `references/build/` | build workflow, repo discovery, tool allowlist, env setup, git, parallelism |
-| `references/quality/` | testing, review, self-critique, observability, security baseline |
+| `references/quality/` | testing, performance testing, review, self-critique, observability, documentation, security baseline |
 | `references/operations/` | deployment, monitoring (non-optional), incidents, sandboxing, secrets, data retention |
 | `references/agent-state/` | context, session continuity, checkpoints, escalation, audit trail (non-optional) |
 | `references/product/` | tradeoffs, cost, backward compat, env parity, ownership |

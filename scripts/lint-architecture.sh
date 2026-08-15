@@ -69,7 +69,7 @@ resolve_ref() {
     [ -f "$cand" ] && return 0
   done
   case "$ref" in
-    architecture/*|planning/*|build/*|quality/*|operations/*|agent-state/*|product/*)
+    architecture/*|planning/*|build/*|quality/*|operations/*|agent-state/*|product/*|design/*)
       [ -f "$SKILL_ROOT/references/$ref" ] && return 0 ;;
   esac
   basename_glob="${ref##*/}"
